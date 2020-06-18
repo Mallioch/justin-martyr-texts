@@ -10,4 +10,6 @@ Assuming you have text validator installed, this should validate the file accord
 
 `validate-text text-validator.toml texts/1-apology.txt`
 
-`python3 convert-to-nfc.py > texts/1-apology-output.txt`
+Also, you can convert a whole file to NFC by running this.
+
+`python3 convert-to-nfc.py 1-apology.txt > texts/1-apology-output.txt`
